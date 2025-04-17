@@ -1,0 +1,36 @@
+{
+    "name": "brandonschlack-links",
+    "version": "0.0.1",
+    "description": "My personal links page. Based on LittleLink.",
+    "keywords": [
+        "personal-website",
+        "social-links",
+        "self-hosted",
+        "linktree",
+        "link-in-bio",
+        "littlelink"
+    ],
+    "homepage": "https://github.com/brandonschlack/links#readme",
+    "bugs": {
+        "url": "https://github.com/brandonschlack/links/issues"
+    },
+    "license": "MIT",
+    "author": "Brandon Schlack <brandonschlack@gmail.com>",
+    "private": true,
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandonschlack/links.git"
+    },
+    "scripts": {
+        "build": "wrangler pages build",
+        "deploy": "wrangler pages deploy",
+        "dev": "wrangler pages dev",
+        "format": "prettier --write .",
+        "start": "wrangler pages dev"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.3",
+        "wrangler": "^4.11.0"
+    }
+}

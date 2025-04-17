@@ -1,0 +1,17 @@
+# Fodors EditorConfig
+# http://EditorConfig.org
+root = true
+
+[*.{html,css,scss}]
+indent_style = space
+indent_size = 4
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+
+[*.{js,json,jsonc,mjs,vue}]
+indent_style = space
+indent_size = 4
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
